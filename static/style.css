@@ -1,0 +1,44 @@
+/*Kurt Voigtritter 465 A1*/
+table{
+    margin: auto;
+    background: tan;
+    border: 1px solid black;
+}
+th{
+    empty-cells: show;
+    border: 1px solid black;
+    width: 10px;
+    border: none;
+    background-color: tan;
+}
+td{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    font-size: 60px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.leftNumb{
+    text-align: center;
+}
+
+
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd){
+    background-color: chocolate;
+}
+
+#moveContainer{
+    margin: auto;
+    width: 40vw;
+}
+
+#buttonHolder{
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+
+<head>
+    {% include "bootstrap.html" %}
+    <title>Rules!</title>
+</head>
+
+<body>
+    {% include "navbar.html" %}
+    <h1>CINS 465: Assignment 4 by Kurt Voigtritter</h1>
+    <div>
+        <p>The goal of Chess is to kill the opponent's King piece before they kill yours
+            using soldiers that move in unique ways around the grid board. There are 6 types of
+            pieces in varying amounts:
+        </p>
+        <ul>
+            <li>Pawn: can move forward 2 spaces on first move, one space forward from then on, attacks diagonally</li>
+            <li>Knight: Can move one step vertically and two horizontally, or two steps vertically and one horizontally,
+                any square it lands on is an attack</li>
+            <li>Bishop: Can move any number of spaces diagonally</li>
+            <li>Rook: Can move any number of spaces vertically and horizontally</li>
+            <li>Queen: Combines the power of the rook and the bishop, can move any number of spaces vertically,
+                horizontally, or diagonally, but only one direction per turn</li>
+            <King>May move one square in any direction</King>
+        </ul>
+    </div>
+</body>
+
+</html>

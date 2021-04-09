@@ -1,0 +1,26 @@
+<html>
+    <style>
+        h1{
+            text-align: center;
+          }
+    </style>
+    <head>
+        {% include "bootstrap.html" %}
+        {% load static %}
+        <title>History!</title>
+    </head>
+    <body>
+        {% include "navbar.html" %}
+        <h1>CINS 465: Assignment 4 by Kurt Voigtritter</h1>
+        <img src="{%static 'pic.jpg' %}"/>
+        <div id="historyText">
+            <p>In order to Make this website I...</p>
+            <ol>
+                <li>Made a new project in django</li>
+                <li>specified the static and templates in setting.py</li>
+                <li>filled out the urls which call views, which render templates</li>
+                <li>made these templates using my former assignments as a base</li>
+            </ol>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,298 @@
+<h1>CINS 465: Assignment 5 by Kurt Voigtritter</h1>
+<div id="boardContainer">
+    <table id="board">
+        <!--Eight-->
+        <tr id="eight">
+            <th class="leftNumb">8</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 8 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h8">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tr>
+        <!--seven-->
+        <tr id="seven">
+            <th class="leftNumb">7</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 7 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h7">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tr>
+        <!--six-->
+        <tr id="six">
+            <th class="leftNumb">6</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 6 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h6">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tr>
+        <!--five-->
+        <tr id="five">
+            <th class="leftNumb">5</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 5 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h5">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+
+        </tr>
+        <!--4-->
+        <tr id="four">
+            <th class="leftNumb">4</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 4 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h4">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tr>
+        <!--3-->
+        <tr id="three">
+            <th class="leftNumb">3</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 3 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h3">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tr>
+        <!--2-->
+        <tr id="two">
+            <th class="leftNumb">2</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 2 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h2">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tr>
+        <!--1-->
+        <tr id="one">
+            <th class="leftNumb">1</th>
+            {% for spaces in board.space_list.all %}
+            {% if spaces.space_row == 1 %}
+            {% if spaces.space_col == "a" %}
+            <td id="a1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "b" %}
+            <td id="b1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "c" %}
+            <td id="c1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "d" %}
+            <td id="d1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "e" %}
+            <td id="e1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "f" %}
+            <td id="f1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "g" %}
+            <td id="g1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% if spaces.space_col == "h" %}
+            <td id="h1">{{spaces.space_piece|safe}}</td>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tr>
+        <tr id="letterCol">
+            <th class="leftNumb">&nbsp</th>
+            <th class="leftNumb">a</th>
+            <th class="leftNumb">b</th>
+            <th class="leftNumb">c</th>
+            <th class="leftNumb">d</th>
+            <th class="leftNumb">e</th>
+            <th class="leftNumb">f</th>
+            <th class="leftNumb">g</th>
+            <th class="leftNumb">h</th>
+
+        </tr>
+    </table>
+</div>
+<div id="moveContainer">
+    <form action="{% url 'chess:home' %}" method="POST">
+        {% csrf_token %}
+        <div class="form-row">
+            <div class="col">
+                <input name="fromTextBox" type="text" class="form-control" placeholder="MOVE FROM">
+            </div>
+            <div class="col">
+                <input name="toTextBox" type="text" class="form-control" placeholder="MOVE TO">
+            </div>
+        </div>
+        <br>
+        <div id="buttonHolder">
+            <button id="moveButton" type="submit" class="btn btn-primary">Move/Save</button>
+
+        </div>
+    </form>
+    <form action="{% url 'chess:reset' %}" method="POST">
+        {% csrf_token %}
+        <div id="buttonHolder">
+        <button id="resetButton" type="submit" class="btn btn-warning">Reset</button>
+    </div>
+    </form>
+</div>
