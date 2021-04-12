@@ -117,7 +117,6 @@ def home(request):
             #context = {
             #'board' : board,
             #}
-            print("NIGGER")  
             return render(request, 'chessboardApp/home.html', context)
         fromSpace = board.space_list.filter(space_col=from_field[0]).filter(space_row=from_field[1])
         fromSpace = fromSpace[0]
